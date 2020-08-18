@@ -16,7 +16,7 @@ let ToDoList = [{TaskName:"challange1", TaskDate:"3/August/2020",TaskStatus:"don
                 {TaskName:"challange5", TaskDate:"28/September/2020", TaskStatus:"todo"},
                 {TaskName:"task5", TaskDate:"5/October/2020",TaskStatus:"todo"}]
  function update(){
- this.ToDoLIST=(ToDoList[4])
+ this.ToDoLIST=(ToDoList[4].TaskStatus)
  }         
 
 
