@@ -28,8 +28,12 @@ for(var i =0; 1<ToDoList.length;i++){
   else{
     ToDoList[4].TaskStatus="done";
   }
+
+          
+
+
+console.log(ToDoList[4].TaskName + ToDoList[4].TaskDate + ToDoList[4].TaskStatus);  
+
+      
 }
- }         
-
-
-console.log(ToDoList[4]);               
+ }
