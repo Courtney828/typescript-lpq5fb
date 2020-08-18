@@ -7,8 +7,8 @@ appDiv.innerHTML = `<h1>TypeScript Starter</h1>`;
 
 let ToDoList = [{TaskName:"challange1", TaskDate:"3/August/2020",TaskStatus:"done"},
                 {TaskName:"Html", TaskDate:"10/August/2020", TaskStatus:"done"},
-                {TaskName:"challange2", TaskDate:"17/August/2020", TaskStatus:"dodo"},
-                {TaskName:"task2", TaskDate:"24/August/2020", TaskStatus:"todo"},
+                {TaskName:"Css", TaskDate:"17/August/2020", TaskStatus:"dodo"},
+                {TaskName:"Javascript", TaskDate:"24/August/2020", TaskStatus:"todo"},
                 {TaskName:"challange3", TaskDate:"31/August/2020", TaskStatus:"pending"},
                 {TaskName:"task3", TaskDate:"7/September/2020", TaskStatus:"todo"},
                 {TaskName:"challange4", TaskDate:"14/September/2020", TaskStatus:"todo"},
