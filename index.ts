@@ -15,8 +15,20 @@ let ToDoList = [{TaskName:"challange1", TaskDate:"3/August/2020",TaskStatus:"don
                 {TaskName:"task4", TaskDate:"21/September/2020", TaskStatus:"todo"},
                 {TaskName:"challange5", TaskDate:"28/September/2020", TaskStatus:"todo"},
                 {TaskName:"task5", TaskDate:"5/October/2020",TaskStatus:"todo"}]
- function update(){
- this.ToDoLIST=(ToDoList[4].TaskStatus)
+
+
+
+
+
+ function update(ToDoList){
+for(var i =0; 1<ToDoList.length;i++){
+  if(ToDoList[4].TaskStatus=="done"){
+    ToDoList[4].TaskStatus="pending";
+  }
+  else{
+    ToDoList[4].TaskStatus="done";
+  }
+}
  }         
 
 
