@@ -18,22 +18,11 @@ let ToDoList = [{TaskName:"challange1", TaskDate:"3/August/2020",TaskStatus:"don
 
 
 
+function update(ToDoList){
+  this.ToDoList[4].TaskStatus = "" ;
 
-
- function update(ToDoList){
-for(var i =0; 1<ToDoList.length;i++){
-  if(ToDoList[4].TaskStatus=="done"){
-    ToDoList[4].TaskStatus="pending";
-  }
-  else{
-    ToDoList[4].TaskStatus="done";
-  }
-
-          
-
-
-console.log(ToDoList[4].TaskName + ToDoList[4].TaskDate + ToDoList[4].TaskStatus);  
-
-      
 }
- }
+console.log(ToDoList[4].TaskName + " "+ ToDoList[4].TaskDate +" " + ToDoList[4].TaskStatus);   
+
+
+
